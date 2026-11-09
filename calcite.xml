@@ -17,7 +17,6 @@
 
   <project path="vendor/aospa" name="android_vendor_aospa" remote="fuck-r8q" revision="calcite" />
 
-  <remove-project name="AOSPA/android_device_samsung_r8q-kernel" />
   <project path="device/samsung/r8q-kernel"
            name="doubledashdot/device_samsung_r8q-kernel"
            remote="github"
