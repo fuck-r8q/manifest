@@ -5,6 +5,8 @@
   <remove-project name="AOSPA/android_frameworks_base" />
   <remove-project name="AOSPA/android_hardware_interfaces" />
   <remove-project name="AOSPA/android_vendor_aospa" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="fuck-r8q/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="calcite" />
 
   <project path="build/make" name="vanadium-oss/sm8250/samsung/r8q/paranoid/android_build_make" remote="gitlab" revision="calcite" />
   <project path="frameworks/av" name="vanadium-oss/sm8250/samsung/r8q/paranoid/android_frameworks_av" remote="gitlab" revision="calcite" />
